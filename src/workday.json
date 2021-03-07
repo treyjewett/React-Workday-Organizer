@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "hour": "9AM",
+        "value": ""
+    },
+    {
+        "id": 2,
+        "hour": "10AM",
+        "value": ""
+    },
+    {
+        "id": 3,
+        "hour": "11AM",
+        "value": ""
+    },
+    {
+        "id": 4,
+        "hour": "12PM",
+        "value": ""
+    },
+    {
+        "id": 5,
+        "hour": "1PM",
+        "value": ""
+    },
+    {
+        "id": 6,
+        "hour": "2PM",
+        "value": ""
+    },
+    {
+        "id": 7,
+        "hour": "3PM",
+        "value": ""
+    },
+    {
+        "id": 8,
+        "hour": "4PM",
+        "value": ""
+    },
+    {
+        "id": 9,
+        "hour": "5PM",
+        "value": ""
+    }
+]
