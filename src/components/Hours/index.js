@@ -7,7 +7,7 @@ function Hours(props) {
     <div className="row">
       <div className="col-sm-1 hour">{props.hour}</div>
       <input className="col-md-10 taskInput" id={props.id} type="text" placeholder="Input Tasks Here"></input>
-      <button onClick={() => props.saveTask(props.id)} className="col-sm-1 btn" type="submit">Save</button>
+      <button onClick={() => props.saveTask(props)} className="col-sm-1 btn" type="submit">Save</button>
     </div>
   );
 }
