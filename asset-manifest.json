@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/React-Workday-Organizer/static/css/main.278bba83.chunk.css",
-    "main.js": "/React-Workday-Organizer/static/js/main.594b42ae.chunk.js",
-    "main.js.map": "/React-Workday-Organizer/static/js/main.594b42ae.chunk.js.map",
-    "runtime-main.js": "/React-Workday-Organizer/static/js/runtime-main.24d56984.js",
-    "runtime-main.js.map": "/React-Workday-Organizer/static/js/runtime-main.24d56984.js.map",
-    "static/css/2.fabbef47.chunk.css": "/React-Workday-Organizer/static/css/2.fabbef47.chunk.css",
-    "static/js/2.2034e599.chunk.js": "/React-Workday-Organizer/static/js/2.2034e599.chunk.js",
-    "static/js/2.2034e599.chunk.js.map": "/React-Workday-Organizer/static/js/2.2034e599.chunk.js.map",
-    "index.html": "/React-Workday-Organizer/index.html",
-    "static/css/2.fabbef47.chunk.css.map": "/React-Workday-Organizer/static/css/2.fabbef47.chunk.css.map",
-    "static/css/main.278bba83.chunk.css.map": "/React-Workday-Organizer/static/css/main.278bba83.chunk.css.map",
-    "static/js/2.2034e599.chunk.js.LICENSE.txt": "/React-Workday-Organizer/static/js/2.2034e599.chunk.js.LICENSE.txt"
+    "main.css": "/workday-organizer/static/css/main.278bba83.chunk.css",
+    "main.js": "/workday-organizer/static/js/main.594b42ae.chunk.js",
+    "main.js.map": "/workday-organizer/static/js/main.594b42ae.chunk.js.map",
+    "runtime-main.js": "/workday-organizer/static/js/runtime-main.5779ebfc.js",
+    "runtime-main.js.map": "/workday-organizer/static/js/runtime-main.5779ebfc.js.map",
+    "static/css/2.fabbef47.chunk.css": "/workday-organizer/static/css/2.fabbef47.chunk.css",
+    "static/js/2.2034e599.chunk.js": "/workday-organizer/static/js/2.2034e599.chunk.js",
+    "static/js/2.2034e599.chunk.js.map": "/workday-organizer/static/js/2.2034e599.chunk.js.map",
+    "index.html": "/workday-organizer/index.html",
+    "static/css/2.fabbef47.chunk.css.map": "/workday-organizer/static/css/2.fabbef47.chunk.css.map",
+    "static/css/main.278bba83.chunk.css.map": "/workday-organizer/static/css/main.278bba83.chunk.css.map",
+    "static/js/2.2034e599.chunk.js.LICENSE.txt": "/workday-organizer/static/js/2.2034e599.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.24d56984.js",
+    "static/js/runtime-main.5779ebfc.js",
     "static/css/2.fabbef47.chunk.css",
     "static/js/2.2034e599.chunk.js",
     "static/css/main.278bba83.chunk.css",
