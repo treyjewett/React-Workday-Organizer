@@ -1,6 +1,6 @@
 {
-  "name": "workday-organizer",
   "homepage": "https://treyjewett.github.io/workday-organizer",
+  "name": "workday-organizer",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
