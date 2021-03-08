@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Header from "./components/Header";
 import Hours from "./components/Hours";
 import workday from "./workday.json";
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends Component {
 
