@@ -2,14 +2,12 @@ import React, { Component } from "react";
 import Header from "./components/Header";
 import Hours from "./components/Hours";
 import workday from "./workday.json";
-import Moment from "react-moment"
-
-let tense = "";
+import moment from "moment";
 
 class App extends Component {
 
     componentDidMount() {
-        for (let i = 1; i <= 9; i++) {
+        for (let i = 9; i <= 17; i++) {
             let storageValue = localStorage.getItem(`${i}`);
             if (storageValue !== null) {
                 document.getElementById(`${i}`).value = storageValue;
@@ -23,34 +21,31 @@ class App extends Component {
         alert(`${props.hour} Task Saved!`);
     };
 
-    colorCode(props) {
-        let currentTime = parseInt(Moment().format("H"));
-        let hour = parseInt(`${props.hour}`);
-        for (let i = 1; i <= 9; i++) {
-            if (hour < currentTime) {
-                tense = "past col-md-9 taskInput";
-            } else if (hour === currentTime) {
-                tense = "col-md-9 taskInput present";
-            } else {
-                tense = "col-md-9 taskInput future";
-            }
-        }
-    }
+    determineTense = (timeSlot, time) => (time === timeSlot ? "present" : "future");
+
+    colorCode = ({ id: timeSlot }) => {
+        const currentTime = Number(moment().format("H"));
+        return currentTime > timeSlot
+            ? "past"
+            : this.determineTense(timeSlot, currentTime);
+    };
 
     render() {
         return (
             <>
                 <Header />
-                {workday.map(hour => (
-                    <Hours
-                        saveTask={this.saveTask}
-                        tense={tense}
-                        id={hour.id}
-                        key={hour.id}
-                        hour={hour.hour}
-                        value={hour.value}
-                    />
-                ))}
+                {workday.map(hour => {
+                    return (
+                        <Hours
+                            saveTask={this.saveTask}
+                            tense={this.colorCode(hour)}
+                            id={hour.id}
+                            key={hour.id}
+                            hour={hour.hour}
+                            value={hour.value}
+                        />
+                    )
+                })}
             </>
         );
     }
